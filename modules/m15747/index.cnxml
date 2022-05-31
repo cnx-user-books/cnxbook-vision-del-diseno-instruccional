@@ -1,0 +1,149 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Introducción: Algunas definiciones</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m15747</md:content-id>
+  <md:title>Introducción: Algunas definiciones</md:title>
+  <md:abstract/>
+  <md:uuid>a426eb21-c6e6-401f-866e-056f160793bc</md:uuid>
+</metadata>
+  <content>
+    <para id="element-48">En todo este tema hacemos referencia a la siguiente obra: <cite><cite-title>R. Koper, C. Tattersall (Springer 2005): "Learning Design: A Handbook on Modelling and Delivering Networked Education"</cite-title></cite></para><para id="id47893501">La inclusión de diseños pedagógicos complejos en los que participan simultáneamente usuarios con distintos roles de un modo ínter-operable necesita desarrollar especificaciones de los elementos básicos de diseño para poder trasladarlos de un sistema a otro sin pérdida de información.</para>
+    <para id="id47447327">De la identificación de los elementos esenciales de estos procesos educativos nos posibilita la construcción de una expresión formalizada que permita el intercambio y la interoperabilidad. Ello conlleva definiciones abstractas formadas por actividades y flujos de aprendizaje.</para>
+    <section id="id-997933003361">
+      <title>Definiciones</title>
+      <para id="id47017420">Continuaremos con las definiciones sobre diseño de aprendizaje que nos dan Koper y Tattesal (2005) y resaltamos ciertos términos cuyas definiciones también se toman de estos autores:</para>
+      <table id="id48226813" summary="">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <tbody>
+            <row>
+              <entry>Término</entry>
+              <entry>Descripción</entry>
+              <entry>Traducción</entry>
+            </row>
+            <row>
+              <entry>
+                <emphasis>Learning Design</emphasis>
+              </entry>
+              <entry>
+                <foreign>A description of a </foreign>
+                <link target-id="Method">method</link>
+                <foreign> enabling learners to attain certain </foreign>
+                <link target-id="Learning_Objetives">learning objectives</link>
+                <foreign> by performing certain </foreign>
+                <link target-id="Learning_Activity">learning activities</link>
+                <foreign> in a certain </foreign>
+                <emphasis>order</emphasis>
+                <foreign> in the </foreign>
+                <emphasis>context</emphasis>
+                <foreign> of a certain </foreign>
+                <link target-id="Environment">environment</link>
+                <foreign>.</foreign>
+              </entry>
+              <entry>Descripción de un método que permite a los alumnos alcanzas ciertos objetivos de aprendizaje realizando ciertas actividades de aprendizaje en cierto orden en el contexto de cierto ambiente.</entry>
+            </row>
+            <row>
+              <entry>
+                <emphasis>Method</emphasis>
+              </entry>
+              <entry>
+                <foreign>The container element for a </foreign>
+                <link target-id="Play">play</link>
+                <foreign> and the conditions governing its excecution.</foreign>
+              </entry>
+              <entry>El elemento contenedor para una “obra” y las condiciones que gobiernan su ejecución.</entry>
+            </row>
+            <row>
+              <entry>
+                <emphasis>Learning Objectives</emphasis>
+              </entry>
+              <entry>
+                <foreign>The intended outcome for learners. It is possible to define learning objectives both at the global level of the unit of learning and for every single </foreign>
+                <link target-id="Learning_Activity">learning activity</link>
+                <foreign> in the learning design.</foreign>
+              </entry>
+              <entry>El resultado previsto para los alumnos. Es posible definir objetivos de aprendizaje tanto para el nivel global de la unidad de aprendizaje como para actividades sencillas dentro del diseño de aprendizaje.</entry>
+            </row>
+            <row>
+              <entry>
+                <emphasis>Learning Activity</emphasis>
+              </entry>
+              <entry>
+                <foreign>An activity to be carried out by a learner in order to obtain a </foreign>
+                <link target-id="Learning_Objective">learning objective</link>
+                <foreign>. The notion of a learning activity recognizes that learning can happen with or without </foreign>
+                <link target-id="Learning_Object">learning objects</link>
+                <foreign> (learning is different from content consumption) and that learning comes from learners being active.</foreign>
+              </entry>
+              <entry>Actividad llevada a cabo por un alumno para alcanzar un objetivo de aprendizaje. La noción de una actividad de aprendizaje reconoce que dicho aprendizaje puede ocurrir con o sin objetos de aprendizaje (el aprendizaje es diferente del consumo de contenidos) y que el aprendizaje se origina en los alumnos activos.</entry>
+            </row>
+            <row>
+              <entry>
+                <emphasis>Environment</emphasis>
+              </entry>
+              <entry>
+                <foreign>A structured Collection of </foreign>
+                <link target-id="Learning_Object">learning objects</link>
+                <foreign>, services and sub-environments within which activities take place.</foreign>
+              </entry>
+              <entry>Una colección estructurada de objetos de aprendizaje, servicios y sub-entornos dentro de los que ocurren las actividades.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id47214732">Completaremos las definiciones anteriores con los siguientes términos que aunque no aparecen en la definición principal si están directamente relcionados:</para>
+      <table id="id46930980" summary="">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <tbody>
+            <row>
+              <entry>Termino</entry>
+              <entry>Descripción</entry>
+              <entry>Traducción</entry>
+            </row>
+            <row>
+              <entry>
+                <emphasis>Learning Object</emphasis>
+              </entry>
+              <entry>
+                <foreign>Any reproducible and addressable digital or non-digital resource used to perform learning activities or support activities. Represented in IMS Content Packaging with the element “Resources”.</foreign>
+              </entry>
+              <entry>Cualquier recurso digital o no digital, usado en la realización de actividades de aprendizaje o apoyo. Representado en un paquete de contenidos (IMS CP) con el elemento “Recursos”.</entry>
+            </row>
+            <row>
+              <entry>
+                <emphasis>Play</emphasis>
+              </entry>
+              <entry>
+                <foreign>Specifies which roles perform what activities in what order. A play is modelled according to a theatrical play with acts and role-parts. In general: a play consists of a sequence of acts. In each act, different activities are set for different roles and are performed in parallel. When an act is completed, the next act starts until the completion requirements for the learning design are met</foreign>
+              </entry>
+              <entry><emphasis>Obra - </emphasis>Especifica las actividades y orden de cada rol. Una obra se modela de acuerdo a una escenificación teatral con actos y reparto de papeles. En general: una obra consta de una secuencia de actos. En cada acto se fijan diversas actividades para diferentes roles y se realizan en paralelo. Cuando se termina un acto, el acto siguiente comienza hasta que los requisitos de la terminación para el diseño de aprendizaje se resuelven</entry>
+            </row>
+            <row>
+              <entry>
+                <emphasis>Unit of Learning</emphasis>
+              </entry>
+              <entry>
+                <foreign>An abstract term used to refer to any delimited piece of education or training, such as a course, a module, a lesson, etc. A unit of learning represents more than just a Collection of ordered resources to learn – it include a variety of prescribed activities (e.g. problem-solving activities, search activities, discussion activities, peer assessment activities), assessments, services and support facilities provided by teachers, trainers and other staff members.</foreign>
+              </entry>
+              <entry>Un término abstracto referido a cualquier parte delimitada de educación o entrenamientos, tal como un curso, módulo, lección, etc. Una unidad de aprendizaje no es solo una colección ordenada de recursos de aprendizaje – incluye una variedad de actividades prescritas (Ej. Actividades de solución de problemas, búsquedas, discusión, evaluación de pares), evaluaciones, servicios y apoyo ofrecido por profesores, formadores y otros miembros del personal.</entry>
+            </row>
+            <row>
+              <entry>
+                <emphasis>Activity</emphasis>
+              </entry>
+              <entry>
+                <foreign>An action to be undertaken by a role within a specified environment. There are two types of activities: learning activities and support activities.</foreign>
+              </entry>
+              <entry>Una acción asimilada a un rol dentro de un entorno específico. Hay dos tipos de actividades: de aprendizaje y de apoyo.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </content>
+</document>

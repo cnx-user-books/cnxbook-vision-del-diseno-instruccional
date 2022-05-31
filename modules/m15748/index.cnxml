@@ -1,0 +1,48 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>IMS/LD Cuestionario</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>7ad23407-8b31-490d-bc83-710d2d347e82</md:uuid>
+</metadata>
+  <content>
+    <exercise id="element-3"><problem id="idm13451808">
+		<para id="element-954">El siginificado de las siglas <emphasis>IMS</emphasis> se corresponde con ...		</para><list id="element-984" list-type="enumerated"><item>Information Modular Systems</item>
+	<item>Instructional Management System</item>
+	<item>Instructional Multimedia System</item>
+	<item>Ninguna de las anteriores</item></list>
+	</problem>
+	<solution id="idm3977872">
+		<para id="element-968">(2) es decir Sistemas para la Gestión de la Educación</para>
+	</solution>
+</exercise><exercise id="element-590"><problem id="idm4736176">
+		<para id="element-103">Sí nos hemos inventado la palabra <emphasis>MOAFE</emphasis> para describir el Learning Design, ¿qué podría significar?
+		</para><list id="element-632" list-type="enumerated"><item>MOlecular Address For Enginnery</item>
+	<item>Molecular Object For Education</item>
+	<item>Method Objectiv Activity Flow Environment</item>
+	<item>Mola Mazo Ser Pirata</item></list>
+	</problem>
+	<solution id="idm5013376">
+		<para id="element-876">(3) <emphasis>Method</emphasis> - learning <emphasis>Objectives</emphasis> - learning <emphasis>Activities</emphasis> - orderer <emphasis>Flow</emphasis> - whitin <emphasis>Environment</emphasis></para><para id="element-769">En efecto <emphasis>MOAFE</emphasis> resumen los principales elementos de la definición de <cite><cite-title>Kopper y Tattesal</cite-title></cite> sobre el diseñor de aprendizaje: <cite><cite-title>Descripción de un <emphasis>método</emphasis> que permite a los alumnos alcanzar ciertos <emphasis>objetivos</emphasis> de aprendizaje realizando ciertas <emphasis>actividades</emphasis> de aprendizaje en cierto <emphasis>orden</emphasis> en el contexto de cierto <emphasis>ambiente</emphasis></cite-title></cite>.</para>
+	</solution>
+</exercise><exercise id="element-260"><problem id="idm6273984">
+		<para id="element-934">Retomando la definición de LD que acabamos de presentar los autores redundan en el empleo del adjetivo "CERTAIN". Consulte el <link url="www.rae.es">Diccionario</link> y responda ¿qué significa el adjetivo "<emphasis>cierto</emphasis>" cuando precede inmediatamente al nombre?
+		</para><list id="element-370" list-type="enumerated"><item>El caracter verdadero de lo que están diciendo</item>
+	<item>Koper es un gran tirado: muy certero</item>	<item>En sentido indeterminado</item>
+</list>
+	</problem>
+	<solution id="idm13519360">
+		<para id="element-782">(3) En efecto en la definición los autores redundan en el calificativo <emphasis>indeterminado</emphasis> tanto de los objetivos, las actividades, el orden o el entorno.</para>
+
+	</solution>
+</exercise><exercise id="element-382"><problem id="idp600928">
+		<para id="element-319">Shreek le decía a Asno: "Los Ogros son como las cebollas, por que tienen capas en las que enconden la complejidad de su personalidad". ¿Por qué podemos decir que IMS/LD es el <emphasis>Ogro</emphasis> de las especificaciones IMS/LG?		</para><list id="element-88" list-type="enumerated"><item>Porque asusta tanto a educandos como a educadores</item>
+	<item>Porque las implementaciones aún están muy verdes</item>
+	<item>Se definen en Niveles: A, B y C</item></list>
+	</problem>
+	<solution id="idm7571344">
+		<para id="element-973">(3) ¡¡¡ Correcto !!! En el nivel A corresponde a la capa más superficial, mas cercana a lo concreto (UN ALUMNO), hemos de adentranos hasta el nivel C para conseguir la Abstracción que define completamente a un Ogro, perdon, a un Diseño Instruccional.</para>
+	</solution>
+</exercise><para id="delete_me">
+       <!-- Insert module text here -->
+    </para>   
+  </content>
+  
+</document>

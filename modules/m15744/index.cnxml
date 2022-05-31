@@ -1,0 +1,60 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Las Siglas</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>d4274b69-5c25-4c05-9b19-eaceb2185ac0</md:uuid>
+</metadata>
+  <content>
+    <para id="siglas01"><!-- Insert module text here -->
+    Las siglas <emphasis>IMS</emphasis> son habituales y cotidianas, pero sorprendentemente a veces olvidamos su signficado y entonces nos resulta complicado descifrarlas. La cuestión es que la lectura correcta no sería IMS sino <emphasis>IMS Project</emphasis>: Proyecto de Sistemas para la Gestión del Aprendizaje (Instructional Management Systems)</para><table id="siglas02" summary="">
+<tgroup cols="1"><tbody>
+  <row>
+    <entry>IMS Project</entry>
+  </row>
+  <row>
+    <entry>Instructional Design Systems Project</entry>
+  </row>
+  <row>
+    <entry>Proyecto de Sistemas de Gestión de Aprendizaje</entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table>   
+<section id="siglas03"><title>De EDUCAUSE a IMS/GLC</title>
+<para id="siglas03-1">El proyecto que se origina en <link id="educause" url="http://www.educause.edu">EDUCAUSE</link> con el objeto de estandarizar contenidos de aprendizaje en seguida amplia sus participantes y extiende sus objetivos. De esta forma adquiere una entidad propia que queda institucionalizada e identificada bajo el nombre <link id="imsglobal" url="www.imsglobal.edu">IMS/Global Learging Consortium</link>. Será más conocido por sus iniciales IMS/GLS o IMS/Global.
+</para>
+</section>
+<section id="siglas04"><title>Especificaciones de IMS</title>
+<para id="siglas04-1">El objetivo de las especificaciones es facilitar y posibilitar la interoperabilidad de aplicaciones y servicios en un entorno de eneseñanza distribuido. A continuación relacionamos las principales indicando entre paréntesis la fecha de su primer borrador y estado de la última versión:</para>
+<para id="element-272"><definition id="espec01"><term>IMS Meta Data Specification</term>
+	<meaning id="idp9723056">(Agosto 1999, v1.3 Final) Define el conjunto demetadatos de un recurso de aprendizaje y su organizadción conformes con IEEE.
+</meaning>
+</definition>
+<definition id="espec02"><term>IMS Enterprise Specification</term>
+	<meaning id="idm9658096">(Agosto 1999, v1.0 Final) Establece el punto de partida de una institución educativa definiendo el modelo de datos que permite la integración y el intercambio entre el LMS y los sistemas de gestión</meaning>
+</definition>
+<definition id="espec03">
+	<term>IMS Content Packaging</term>
+	<meaning id="idm672848">(Febrero 2000, v1.2 Draft) Permitir la distribución empaquetada de contenidos reutilizables e intercambiables</meaning>
+</definition>
+<definition id="espec04">
+	<term>IMS Question &amp; Test Interoperatibility</term>
+	<meaning id="idm1093904">(Febrero 2000, v2.1 Draft) Estructura la representación de cuestionarios de evaluación posibilitando el uso de baterias de pregunstas, registro de respuestas y evaluación electrónica, de forma que los resultados sean intercambiables entre diferentes LMS.</meaning>
+</definition>
+<definition id="espec05">
+	<term>IMS Learner Information Package Specification</term>
+	<meaning id="idp5091712">(Marzo 2001, v1.0.1 Final) Define el empaquetado de la información referente a alumno, tanto personal como la generada durante el procesos de aprendizaje. Permite la circulación de expedientes entre distitnos sistemas.</meaning>
+</definition>
+<definition id="espec06"><term>IMS Digital Repositories</term>
+	<meaning id="idp4449984">(Agosto 2002, v1 Final) Define metadatos y estructura de los repositorios digitales de forma que se permite el acceso al mismo desde otro con independencia de su estructura interna.</meaning>
+</definition>
+<definition id="espec07">
+	<term>IMS Learning Design</term>
+	<meaning id="idp5189776">(Octubre 2002, v1.0 Draft) Describe el diseño pedagógico de manera que se pueda codificar en un LMS.</meaning>
+</definition>
+</para>
+</section>
+  </content>
+  
+</document>

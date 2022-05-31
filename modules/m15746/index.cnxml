@@ -1,0 +1,52 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>IMS Learning Dessign</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>74b5337a-a877-4259-96c0-8f18f7f70611</md:uuid>
+</metadata>
+  <content>
+    <para id="id11940234">Las especificaciones IMS Learning Design parten del Lenguaje de Modelado Educativo (Educational Modelling Language) originado en la Universidad Abierta de los Países Bajos. EML trata de fusionar los siguientes componentes:</para>
+    <list list-type="bulleted" id="id11940238">
+      <item>Expresión pedagógica</item>
+      <item>Generalidad</item>
+      <item>Identificación de principios fundamentales</item>
+    </list>
+    <para id="id11321462">Así se obtiene una abstracción, expresada en un lenguaje pedagógicamente neutro, que habilita a los LMS compatibles con IMS LD a:</para>
+    <list list-type="bulleted" id="id10763485">
+      <item>Interpretar los diseños instruccionales</item>
+      <item>Lanzar en cada momento las actividades oportunas</item>
+      <item>Asignarlas a sus roles correspondientes (role-parts).</item>
+      <item>Coordinación general del flujo de ejecución.</item>
+    </list>
+    <para id="id10604525">Dado el carácter genérico y abstracto del diseño de aprendizaje no deberá presentarse por sí solo sino empaquetado según las especificaciones IMS Content Packaging formando una Unidad de Aprendizaje constituida por los elementos básicos se siguiente diagrama:</para>
+    <figure id="id4874272">
+      <media id="idp901392" alt=""><image src="../../media/graphics1.jpg" mime-type="image/jpeg" height="330" width="600"/></media>
+    </figure>
+    <section id="id-406660713204">
+      <title>Niveles del IMS LD</title>
+      <para id="id11939170">La implementación de una especificación IMS LD se debe abordar a los largo de tres niveles (A, B y C) de forma que cada uno complementa el anterior. Dicha estructuración tiene por objeto facilitar a las instituciones educativas el cumplimiento progresivo de dichas especificaciones. De esta forma dentro de un entorno educativo puede ser suficiente, por el momento, la identificación del NIVEL A.</para>
+      <para id="id9403962">
+        <term>Nivel A</term>
+      </para>
+      <para id="id3226987">Corresponde al nivel de menor abstracción, se consigue centrándonos en el modelado de un único usuario reflejando los conceptos expuestos en el diagrama anterior. Deberá completarse para cada uno de los posibles roles que se apliquen y descenderemos al nivel de detalle de las estructuras de actividades determinando la secuencia básico de cada itinerario de aprendizaje.</para>
+      <para id="id3317192">En el NIVEL A no se establecen valoraciones, por tanto, no se puede obrar en consecuencia.</para>
+      <para id="id11430122">
+        <term>Nivel B</term>
+      </para>
+      <para id="id3845439">Se alcanza estableciendo los atributos-valores (propiedades) que nos permitan controlar de estado de la Unidad de Aprendizaje. Una vez bien definidos podremos establecer las condiciones que gobiernan el flujo de actividades permitiéndonos modificar la secuencia básica definida anteriormente.</para>
+      <para id="id11303647">
+        <term>Nivel C</term>
+      </para>
+      <para id="id8820432">En este nivel definimos eventos que se disparar para permitir una ejecución asíncrona, en la que no hay dependencia de la sincronización entre el fin de una actividad y la continuación con la siguiente. </para>
+      <para id="id11315365">Podemos establecer una paralelismo entre los tres nivel del IMS LD con una visión simplificada de las fases que puede ejecutar un informático en el planteamiento de un programa:</para>
+      <list list-type="enumerated" id="id3897685">
+        <item>Identifica los procesos estudiando casos particulares (Puede definir diagramas estructurales)</item>
+        <item>Define las variables que le permiten controlar el flujo (Puede definir los diagramas de flujo).</item>
+        <item>Define un objeto: determinada propiedades, internas y externas, define métodos (procesos), programa eventos.</item>
+      </list>
+    </section>
+    <section id="id-833523420262">
+      <title>Software disponible</title>
+      <para id="id11637846">Describir la definición de cualquier de los niveles anteriores con un simple editor XML con soporte contextual, sería muy complicado incluso para personas familiarizadas tanto con los términos del estándar como con el propio XML.</para>
+      <para id="id4131244">Será conveniente recurrir a herramientas como <link url="http://www.reload.ac.uk/ldeditor.html">Reload Dessign Editor</link> o <link url="http://www.copperauthor.org/">IMS Learning Design CopperAuthor</link> que nos permiten partir de unos formularios que estructuran y que nos dirigen en esta tarea.</para>
+    </section>
+  </content>
+</document>
