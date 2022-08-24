@@ -1,12 +1,13 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="es">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="es" authors="Adolfo Mu&#xF1;oz Aguilar">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
     <md:content-id>col10505</md:content-id>
-    <md:title>Visión del Diseño Instruccional </md:title>
+    <md:title>Visi&#xF3;n del Dise&#xF1;o Instruccional </md:title>
     <md:language>es</md:language>
     <md:license url="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution License</md:license>
     <md:uuid>804db766-73e0-4c53-b5c8-65f1e389c6ca</md:uuid>
-<md:slug>vision-del-diseno-instruccional</md:slug>
-</metadata>
+    <md:slug>vision-del-diseno-instruccional</md:slug>
+  </metadata>
   <col:content>
     <col:subcollection>
       <md:title>Temas</md:title>
